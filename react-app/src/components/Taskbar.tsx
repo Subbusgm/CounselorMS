@@ -4,10 +4,8 @@ const Taskbar: React.FC = () => {
     return (
         <nav style={taskbarStyle}>
             <ul style={listStyle}>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#students">Students</a></li>
-                <li><a href="#reports">Reports</a></li>
-                <li><a href="#settings">Settings</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#signup">Signup</a></li>
             </ul>
         </nav>
     );
